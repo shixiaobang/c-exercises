@@ -2,9 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-
     char symbol;
-
     scanf("%c", &symbol);
 
     int rank = 3;

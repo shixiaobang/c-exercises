@@ -3,7 +3,6 @@
 int main(int argc, char const *argv[])
 {
     int total;
-
     scanf("%d", &total);
 
     int quotient;
