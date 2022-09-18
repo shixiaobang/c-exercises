@@ -2,15 +2,15 @@
 
 int main(int argc, char const *argv[])
 {
-    int m;// m 个 队
-    int n;// n 人/队
-    int k;// k 学生
-
-    int result;
+    int m;
+    int n;
+    int k;
 
     scanf("%d %d %d", &m, &n, &k);
 
     k %= (m * n);
+
+    int result;
 
     if (k == 0)
     {
@@ -19,7 +19,11 @@ int main(int argc, char const *argv[])
     else
     {
         result = k / n;
-        if (result == 0)
+
+        int flag;
+        flag = k % n;
+
+        if (flag != 0)
         {
             result += 1;
         }
@@ -33,9 +37,3 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
-
-// 8 6 36
-// 6
-
-// 10 8 90
-// 2
