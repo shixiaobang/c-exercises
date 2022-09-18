@@ -23,4 +23,3 @@
 9. [队伍分配](./src/distribute.c)
 
 10. [反转数组](./src/reverse.c)
-
