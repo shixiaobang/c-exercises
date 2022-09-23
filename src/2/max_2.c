@@ -14,7 +14,6 @@ int main(int argc, char const *argv[])
     maximum = max(max(a, b), c);
 
     printf("%d", maximum);
-    printf(" is max\n");
 
     return 0;
 }

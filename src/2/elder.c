@@ -9,17 +9,17 @@ int main(int argc, char const *argv[])
 
     if (age_1 > age_2)
     {
-        printf("statement\n");
+        /* print something here. */
     }
     else
     {
         if (age_1 < age_2)
         {
-            printf("statement\n");
+            /* print something here. */
         }
         else
         {
-            printf("statement\n");
+            /* print something here. */
         }
     }
 

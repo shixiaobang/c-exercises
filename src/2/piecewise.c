@@ -16,7 +16,6 @@ int main(int argc, char const *argv[])
         y = x + 10;
     }
 
-    printf("y的值为:");
     printf("%.2lf\n", y);
 
     return 0;
