@@ -29,19 +29,19 @@ char grade(int score)
     }
     else
     {
-        if (score > 79 && score < 90)
+        if (score > 79)
         {
             return 'B';
         }
         else
         {
-            if (score > 69 && score < 80)
+            if (score > 69)
             {
                 return 'C';
             }
             else
             {
-                if (score > 59 && score < 70)
+                if (score > 59)
                 {
                     return 'D';
                 }
